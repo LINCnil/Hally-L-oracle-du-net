@@ -1,0 +1,103 @@
+{
+	"name": "Oracle",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "Oracle",
+	"homepage_url": "https://oracledu.net",
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage"
+	],
+	"background":{
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://twitter.com/*"],
+			"js":["messenger_twitter.js"],
+			"run_at":"document_start"
+		},
+		{
+			"matches": ["https://www.facebook.com/*", "https://www.google.fr/*", "https://www.google.com/*"],
+			"js":["messenger_facebook.js"],
+			"run_at":"document_start"
+		},
+		{
+			"matches": ["https://www.google.fr/*", "https://www.google.com/*"],
+			"js":["messenger_google.js"],
+			"run_at":"document_start"
+		}
+	],
+	"browser_action": {
+		"default_title": "L'oracle vous révèle les secrets magiques du web",
+		"default_icon": "icons/oraclesleep.png",
+		"default_popup": "src/popup2.html",
+		"icons": {
+			"16": "icons/oracle16.png",
+			"32": "icons/oracle32.png",
+			"38": "icons/oracle38.png",
+			"512": "icons/oracle512.png"
+		}
+	},
+	"web_accessible_resources": [
+		"icons/oracle32.png",
+		"icons/oraclesleep.png",
+		"src/css/style.css",
+		"src/css/cursor.cur",
+		"src/css/cursor2.cur",
+		"src/css/lsdpointer.cur",
+		"src/img/aspiration.png",
+		"src/img/aspiration.gif",
+		"src/img/attention.png",
+		"src/img/attention.gif",
+		"src/img/attentionbig.gif",
+		"src/img/bulle.jpg",
+		"src/img/bulle.gif",
+		"src/img/datamoney.png",
+		"src/img/datamoney.gif",
+		"src/img/moneybig.gif",
+		"src/img/gouvernance.jpg",
+		"src/img/governancebig.jpg",
+		"src/img/gouvernance.gif",
+		"src/img/highway.png",
+		"src/img/highway.gif",
+		"src/img/sagesse.png",
+		"src/img/sagesse.gif",
+		"src/img/sagessebig.gif",
+		"src/img/selfie.png",
+		"src/img/selfie.gif",
+		"src/twitter/trends6.png",
+		"src/twitter/tweet2.png",
+		"src/twitter/sugs3.png",
+		"src/twitter/retweet.png",
+		"src/twitter/sponsorise.png",
+		"src/twitter/aime.png",
+		"src/google/infocard.png",
+		"src/google/brushes/accueil.png",
+		"src/google/brushes/actualite.png",
+		"src/google/brushes/advice.png",
+		"src/google/brushes/adwords.png",
+		"src/google/brushes/alaune.png",
+		"src/google/brushes/connected_research.png",
+		"src/google/brushes/directanswer.png",
+		"src/google/brushes/featured.png",
+		"src/google/brushes/knowgraph.png",
+		"src/google/brushes/long_knowgraph.png",
+		"src/google/brushes/map.png",
+		"src/google/brushes/research.png",
+		"src/google/brushes/results_number.png",
+		"src/google/brushes/richlist.png",
+		"src/google/brushes/searchbar.png",
+		"src/google/brushes/shopping.png",
+		"src/facebook_fonds/author.png",
+		"src/facebook_fonds/comment.png",
+		"src/facebook_fonds/emojireaction.png",
+		"src/facebook_fonds/engagement.png",
+		"src/facebook_fonds/post.png",
+		"src/facebook_fonds/pushed.png",
+		"src/facebook_fonds/sponsorise_feed.png",
+		"src/facebook_fonds/sponsorise.png",
+		"src/facebook_fonds/views.png"
+	]
+}
