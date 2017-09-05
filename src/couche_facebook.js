@@ -31,7 +31,7 @@ var maxDivNumber = 7,
         views: 'Quantitatif is qualitatif, plus c’est vu, plus c’est bon.',
         shares: 'Ici on mesure l\'audimat. Plus la publication aura d’engagements, plus l’algorithme de Facebook l’affichera sur les timelines.',
         engagement: 'Dis-moi ce qu’aiment tes amis, je te dirai qui tu es. Si ton réseau a particulièrement apprécié une publication tu ne la louperas pas',
-        author: 'Plus tu interragis avec les publications d’un émetteur, plus Facebook en déduit qu\'il t\'intéresse et affichera ses contenus. ',
+        author: 'Plus tu interagis avec les publications d’un émetteur, plus Facebook en déduit qu\'il t\'intéresse et affichera ses contenus. ',
         suggested: 'Facebook dit vouloir te faire découvrir des contenus.\nBel objectif! Seulement, pour cela, il te renvoie les publications les plus populaires du réseau.\nLe risque est que nous fassions tous les mêmes découvertes sur notre fil.',
         sponsoredmessage: 'Sur la base de ton activité ici sur Facebook ou sur d’autres sites,\ntu es associé à un profil que les annonceurs peuvent cibler.',
         comment:'Jette-moi le premier like si tu n\'as jamais publié du contenu uniquement dans l’objectif de créer le plus de réactions possibles!'
