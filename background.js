@@ -10,7 +10,7 @@ chrome.runtime.onMessage.addListener(function(msg, sender) {
         });
         chrome.browserAction.setPopup({
             tabId: sender.tab.id,
-            popup: "src/popup_facebook.html"
+            popup: "src/popupfacebook.html"
         });
     }else if (msg.WebPageGoogle === true) {
             chrome.browserAction.setIcon({
@@ -19,7 +19,7 @@ chrome.runtime.onMessage.addListener(function(msg, sender) {
             });
             chrome.browserAction.setPopup({
                 tabId: sender.tab.id,
-                popup: "src/popup_google.html"
+                popup: "src/popupgoogle.html"
             });
         } else if (msg.WebPageTwitter === true) {
                 chrome.browserAction.setIcon({
@@ -28,7 +28,7 @@ chrome.runtime.onMessage.addListener(function(msg, sender) {
                 });
                 chrome.browserAction.setPopup({
                     tabId: sender.tab.id,
-                    popup: "src/popup_twitter.html"
+                    popup: "src/popuptwitter.html"
                 });
             }
 });
