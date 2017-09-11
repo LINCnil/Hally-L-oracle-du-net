@@ -9,7 +9,7 @@ Une vidéo présentant le fonctionnement de l'outil est disponible sur Youtube �
 ## Installation
 
 ### Chrome
-Rendez-vous sur https://chrome.google.com/webstore/detail/oracledunet et cliquez sur « Ajouter à Chrome ».
+Rendez-vous sur https://chrome.google.com/webstore/detail/hally-loracle-du-net/plkhmmdneannmllkhedngleehocnfejh?hl=fr et cliquez sur « Ajouter à Chrome ».
 
 ### Firefox
 Rendez-vous sur https://addons.mozilla.org/fr/firefox/addon/hallyoracledunet cliquez sur « Ajouter à Firefox ».

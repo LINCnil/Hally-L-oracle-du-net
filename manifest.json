@@ -1,7 +1,7 @@
 {
 	"name": "Hally l'Oracle du Net",
 	"short_name": "Hally",
-	"version": "0.6",
+	"version": "0.7",
 	"manifest_version": 2,
 	"description": "révélateur d'algorithmes",
 	"homepage_url": "https://oracledu.net",
@@ -31,7 +31,7 @@
 		}
 	],
 	"browser_action": {
-		"default_title": "L'oracle vous révèle les secrets magiques du web",
+		"default_title": "L'oracle vous révèle comment les algorithmes vous calculent",
 		"default_icon": "icons/oraclesleep.png",
 		"default_popup": "src/popup2.html",
 		"icons": {
