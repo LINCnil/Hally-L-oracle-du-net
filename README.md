@@ -12,10 +12,7 @@ Une vidéo présentant le fonctionnement de l'outil est disponible sur Youtube �
 Rendez-vous sur https://chrome.google.com/webstore/detail/hally-loracle-du-net/plkhmmdneannmllkhedngleehocnfejh?hl=fr et cliquez sur « Ajouter à Chrome ».
 
 ### Firefox
-Rendez-vous sur https://addons.mozilla.org/fr/firefox/addon/hallyoracledunet cliquez sur « Ajouter à Firefox ».
-
-### Opéra
-Rendez-vous sur le store Opéra, cherchez Hally l’Oracle du Net et ajoutez le à votre navigateur.
+La version Firefox est en cours de validation.
 
 
 ## Utilisation
